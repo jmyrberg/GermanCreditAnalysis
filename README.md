@@ -1,7 +1,7 @@
 # German Credit Data Analysis
 This repository contains an exploratory data analysis of the famous [German Credit dataset](https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit+Data)). 
 
-## The interactive R-Markdown document *analysis.rmd* contains:
+## The interactive R-Markdown document *analysis.Rmd* contains:
 * description of the data
 * interactive data exploration
 * interactive model training, hyperparameter search and validation

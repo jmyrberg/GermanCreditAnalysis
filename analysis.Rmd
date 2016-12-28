@@ -10,7 +10,7 @@ runtime: shiny
 
 You've got a problem - you don't know how to tell if a loan will be a good performer or a bad performer. On average, one of every nine loans you grant is defaulted on, but you're not sure how to tell the potentially good applicants from bad ones.  You've got historical data on customer information prior to being granted a loan, as well as information on whether these past loans were good (paid off) or bad (defaulted on).
 
-We first need to specify the target or dependent variable that we're trying to model.  In this case, the target is the variable *GOOD_BAD*. This variable contains an indicator as to whether the loan was a good one or a bad one.
+We first need to specify the target or dependent variable that we're trying to model.  In this case, the target is the variable *good_bad*. This variable contains an indicator as to whether the loan was a good one or a bad one.
 
 ## Data exploration
 
@@ -347,5 +347,3 @@ Things that would need require more inspection:
 * Feature selection/extraction was not considered thoroughly
 * Getting a better understanding of each feature and their category levels
 * Trying other models, such as logistic regression, SVM or neural networks
-
-
